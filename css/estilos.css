@@ -1,0 +1,126 @@
+body{
+    font-size: 16px;
+}
+
+#principal{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+#barra{
+    background-color: rgb(39, 70, 75);
+    max-height: 130px;
+}
+
+#barra div ul li a{
+    color: white;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+#barra div ul{
+    display: table;
+}
+
+#barra ul li{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100px;
+}
+
+#mapa img{
+    min-height: 100%;
+    min-width: 50%;
+    position: fixed;
+}
+
+#mas{
+    position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#9d162e;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+#iniciarSesion{
+    color: white;
+    font-weight: bold;
+    background-color: rgb(9, 190, 182);
+}
+
+.my-float{
+    margin-top:22px;
+}
+
+.reviews{
+    padding: 15px;
+    max-width: 768px;
+    margin: 0 auto;
+  }
+  
+  .review-item{
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 5px;
+    box-shadow: 1px 1px 5px #343a40;
+  }
+  
+  .review-item .review-date{
+    color: #cecece;
+  }
+  .review-item .review-text{
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 5px;
+    color: #343a40;
+  }
+  
+  .review-item .reviewer{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #cecece;
+  }
+
+  .review-item-urgente{
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 5px;
+    box-shadow: 1px 1px 5px red;
+  }
+
+  .review-item-urgente .review-date{
+    color: #cecece;
+  }
+  .review-item-urgente .review-text{
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 5px;
+    color: #343a40;
+  }
+  
+  .review-item-urgente .reviewer{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #cecece;
+  }
+
+#login{
+    background-color: rgba(255, 255, 255, 1);
+    padding: 10px 30px 20px 30px;
+    border-radius: 3px;
+}
+
+#artLogin{
+    padding-top: 10%;
+    margin: auto;
+    width: 400px;
+}
+
+.fondociudad{
+    background-image:url('../img/login.png');
+}
